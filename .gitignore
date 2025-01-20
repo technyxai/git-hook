@@ -1,0 +1,10 @@
+logs/*
+
+scripts/*
+!scripts/default.sh
+
+node_modules/
+
+package-lock.json
+config.json
+.env

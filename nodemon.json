@@ -1,0 +1,9 @@
+{
+    "watch": ["src/**", "config.json", ".env"], 
+    "ext": "js,json", 
+    "exec": "node src/server.js",
+    "env": {
+      "PORT": 8050
+    },
+    "ignore": ["node_modules/**", "*.sh", "logs/**"]
+  }
